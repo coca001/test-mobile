@@ -1,6 +1,6 @@
 --script creado por alberyo79
-local Library =  loadstring(game:HttpGet("https://raw.githubusercontent.com/vqfx/SytroNight4ROBLOX/main/libraries/kavo.lua"))() 
-local Window = Library.CreateLib("coca colaHUB", "Midnight")
+local kavoUI =  loadstring(game:HttpGet("https://raw.githubusercontent.com/vqfx/SytroNight4ROBLOX/main/libraries/kavo.lua"))() 
+local window = kavoUI.CreateLib("coca colaHUB", "BloodTheme")
 
 -- MAIN
 local Main = Window:NewTab("Main")
