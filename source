@@ -58,7 +58,7 @@ OtherSection:NewButton("fly mobile ", "puedes volar", function()
 end)
 
 OtherSection:NewKeybind("keybind", "cerrar el menu o abrirlo", Enum.KeyCode.F, function()
-	Library:ToggleUI()
+	kavoUi:ToggleUI()
 end)
 
 OtherSection:NewButton("infjump ", "saltos infinitos", function()
